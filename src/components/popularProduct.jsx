@@ -9,7 +9,7 @@ export default function PopularProduct() {
   const secondProduct = products[4];
 
   return (
-    <div className='pt-10 flex items-center justify-center flex-col gap-5 max-w-full '>
+    <div className='py-10 flex items-center justify-center flex-col gap-5 max-w-full '>
       <h2 className='text-4xl py-10'> Most Popular Items </h2>
       <div className='popular-product-main-content bg-[#DEECDD]'>
         <section className='top-content flex justify-center items-center gap-10'>
