@@ -23,8 +23,8 @@ export default function PopularProduct() {
             </Link>
             
           </div>
-          <div className='bg-[#C1DFC4] rounded-md translate-x-16 -translate-y-10 '>
-            <img src={firstProduct.image} alt="" className='h-[26rem] -translate-x-36 translate-y-16' />
+          <div className='bg-[#C1DFC4] rounded-md translate-x-16 -translate-y-10 w-[420px] h-[420]'>
+            <img src={firstProduct.image} alt="" className='w-full  -translate-x-36 translate-y-16' />
           </div>
         </section>
         <section className='bottom-content flex flex-row-reverse justify-center items-center gap-10'>
@@ -38,8 +38,8 @@ export default function PopularProduct() {
             </Link>
 
           </div>
-          <div className='bg-[#C1DFC4] rounded-md -translate-x-16 translate-y-8'>
-            <img src={secondProduct.image} alt="" className='h-[26rem] translate-x-32 -translate-y-16' />
+          <div className='bg-[#C1DFC4] rounded-md -translate-x-16 translate-y-8 w-[420px] h-[420]'>
+            <img src={secondProduct.image} alt="" className='w-full translate-x-32 -translate-y-16' />
           </div>
         </section>
       </div>
