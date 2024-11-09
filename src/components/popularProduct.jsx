@@ -17,7 +17,7 @@ export default function PopularProduct() {
             <h3 className='text-2xl py-5 font-bold'>{firstProduct.name}</h3>
             <p className='max-w-[600px] text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate vel corporis, dicta obcaecati vitae et dolorem laboriosam nostrum molestiae eaque.</p>
             <Link to={firstProduct.slug} className='text-lg font-semibold pt-5'>
-              <button className='text-lg font-semibold mt-5 p-2 border-2 bg-black rounded-md text-white'>
+              <button className='text-lg font-semibold mt-5 p-2 border-2 bg-black rounded-md text-zinc-200  hover:bg-slate-800 '>
                 Read More
               </button>
             </Link>
@@ -32,7 +32,7 @@ export default function PopularProduct() {
             <h3 className='text-2xl py-5 font-bold'>{secondProduct.name}</h3>
             <p className='max-w-[600px] text-lg '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quia dicta eos saepe obcaecati numquam culpa aperiam quis, sapiente mollitia nam, sit velit, eveniet quam fugit repellendus deserunt repellat? Cum!</p>
             <Link to={secondProduct.slug}>
-              <button className='text-lg font-semibold mt-5 p-2 border-2 bg-black rounded-md text-white'>
+              <button className='text-lg font-semibold mt-5 p-2 border-2 bg-black rounded-md text-zinc-200  hover:bg-slate-800'>
                 Read More
               </button>
             </Link>
