@@ -17,7 +17,7 @@ export default function HeroSection() {
         </div>
         <div className="hero-section-right">
           <div className='hero-section-right-background '>
-            <div className='bg-[#deecdd] rounded  w-[750px] h-[450px]' >
+            <div className='bg-[#deecdd] rounded  w-[650px] h-[450px]' >
               <p className=' flex justify-center items-center h-full'> Picture </p>
             </div>
           </div>

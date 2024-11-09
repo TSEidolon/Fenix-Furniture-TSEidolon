@@ -21,19 +21,23 @@ export default function Header() {
 
   return (
     <div>
-      <header className='flex justify-between items-center mb-5'>
+      <header className='flex justify-between items-center mb-5 pt-2 '>
         <Link to="/" className='text-xl font-semibold'>Home.</Link>
-        <div>
-          
+        <div className='flex gap-10'>
+          <ul className='flex items-center gap-[4.4rem] text-lg pr-[6.5rem]'>
+                <button >Home</button>
+                <button>Products</button>
+                <button>About Us</button>
+                <button>Contact</button>
+          </ul>
+          <div className='w-10 h-10 bg-gray-100 rounded-full flex justify-center items-center relative' onClick={handleOpenTabCart}>
+            <img src={iconCart} alt="" className='w-6' />
+            <span className='absolute top-2/3 right-1/2 bg-red-500 text-white text-sm w-5 h-5 rounded-full flex justify-center items-center'>{totalQuantity}</span>
+          </div>
         </div>
-        <div className='w-10 h-10 bg-gray-100 rounded-full flex justify-center items-center relative' onClick={handleOpenTabCart}>
-          <img src={iconCart} alt="" className='w-6' />
-          <span className='absolute top-2/3 right-1/2 bg-red-500 text-white text-sm w-5 h-5 rounded-full flex justify-center items-center'>{totalQuantity}</span>
-        </div>
+
       </header>
-      <div>
-        
-      </div>
+      
       <HeroSection />
     </div>
     )
