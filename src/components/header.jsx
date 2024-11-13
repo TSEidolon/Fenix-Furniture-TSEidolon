@@ -22,7 +22,7 @@ export default function Header() {
   return (
     <div>
       <header className='flex justify-between items-center mb-5 pt-2 '>
-        <Link to="/" className='text-xl font-semibold'>Home.</Link>
+        <Link to="/" className='text-xl font-semibold'>El-Logo</Link>
         <div className='flex gap-10'>
           <ul className='flex items-center gap-[4.4rem] text-lg pr-[6.5rem]'>
                 <button >Home</button>
