@@ -1,5 +1,10 @@
 import React from 'react'
 import { FaFacebook } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
+
+
+import chameleon from "../assets/images/chameleon.png"
 
 export default function AboutUsFooter() {
   return (
@@ -23,7 +28,7 @@ export default function AboutUsFooter() {
             </div>
           </div>
         </section>
-        <section className='footer flex justify-around items-start pt-5 gap-5 bg-[#C1DFC4] rounded-md h-[40%]'>
+        <section className='footer flex justify-around items-start pt-5 gap-5 bg-[#C1DFC4] rounded-md h-[40%] relative'>
           <div className='flex flex-col gap-3 items-start'>
             <h4 className='text-xl font-semibold'>Other Info</h4>
             <button className='text-sm'>Terms & Conditions</button>
@@ -50,14 +55,15 @@ export default function AboutUsFooter() {
               </button> 
               <button className='flex items-center gap-2'>
                 <p className='text-sm'>X / Twitter</p>
-                <FaFacebook className='text-sm'/>
+                <FaXTwitter className='text-sm'/>
               </button> 
               <button className='flex items-center gap-2'>
                 <p className='text-sm'>Instagram</p>
-                <FaFacebook className='text-sm'/>
+                <FaInstagram className='text-sm'/>
               </button> 
 
           </div>
+          <img src={chameleon} alt="chameleon" className="absolute right-[0%] top-[-16%] w-[100px]" />
         </section>
 
     </div>
