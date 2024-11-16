@@ -32,34 +32,34 @@ export default function AboutUsFooter() {
         <section className='footer flex justify-around items-start pt-5 gap-5 bg-[#C1DFC4] rounded-md h-[40%] relative'>
           <div className='flex flex-col gap-3 items-start'>
             <h4 className='text-xl font-semibold'>Other Info</h4>
-            <button className='text-sm'>Terms & Conditions</button>
-            <button className='text-sm'>Privacy Policy</button>
-            <button className='text-sm'>License</button>
+            <button className='text-sm hover:text-gray-500'>Terms & Conditions</button>
+            <button className='text-sm hover:text-gray-500'>Privacy Policy</button>
+            <button className='text-sm hover:text-gray-500'>License</button>
           </div>
           <div className='flex flex-col gap-3 items-start'>
             <h4 className='text-xl font-semibold'>Media</h4>
-            <button className='text-sm'>Blogs</button>
-            <button className='text-sm'>Photo Gallery</button>
-            <button className='text-sm'>Latest Release</button>
+            <button className='text-sm hover:text-gray-500'>Blogs</button>
+            <button className='text-sm hover:text-gray-500'>Photo Gallery</button>
+            <button className='text-sm hover:text-gray-500'>Latest Release</button>
           </div>
           <div className='flex flex-col gap-3 items-start'>
             <h4 className='text-xl font-semibold'>Company</h4>
-            <button className='text-sm'>About Us</button>
-            <button className='text-sm'>Career</button>
-            <button className='text-sm'>Services</button>
+            <button className='text-sm hover:text-gray-500'>About Us</button>
+            <button className='text-sm hover:text-gray-500'>Career</button>
+            <button className='text-sm hover:text-gray-500'>Services</button>
           </div>
-          <div className='flex flex-col gap-3'>
+          <div className='flex flex-col gap-3 '>
             <h4 className='text-xl font-semibold'>Socials</h4>
-              <button className='flex items-center gap-2'>
-                <p className='text-sm'>Facebook</p>
-                <FaFacebook className='text-sm'/>
+              <button className='flex items-center gap-2 hover:text-gray-500'>
+                <p className='text-sm '>Facebook</p>
+                <FaFacebook className='text-sm '/>
               </button> 
-              <button className='flex items-center gap-2'>
-                <p className='text-sm'>X / Twitter</p>
+              <button className='flex items-center gap-2 hover:text-gray-500'>
+                <p className='text-sm '>X / Twitter</p>
                 <FaXTwitter className='text-sm'/>
               </button> 
-              <button className='flex items-center gap-2'>
-                <p className='text-sm'>Instagram</p>
+              <button className='flex items-center gap-2 hover:text-gray-500'>
+                <p className='text-sm '>Instagram</p>
                 <FaInstagram className='text-sm'/>
               </button> 
 
