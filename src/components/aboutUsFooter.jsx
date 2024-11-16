@@ -2,18 +2,19 @@ import React from 'react'
 import { FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
+import toaPicture from "../assets/images/toa-heftiba-unsplash.jpg";
 
 
 import chameleon from "../assets/images/chameleon.png"
 
 export default function AboutUsFooter() {
   return (
-    <div className='h-[90vh] pt-10'>
-        <section className='about-us-section flex items-center justify-between gap-10 pb-10 h-[60%]'>
+    <div className='h-[90vh] pt-12'>
+        <section className='about-us-section flex items-center justify-between gap-10 pb-12 h-[60%]'>
           <div className="about-us-section-left">
             <div className='hero-section-right-background '>
-              <div className='bg-[#deecdd] rounded-full  w-[550px] h-[450px]' >
-                <p className=' flex justify-center items-center h-full'> Picture </p>
+              <div className='bg-[#deecdd] relative mx-auto rounded-lg overflow-hidden  w-[550px] h-[450px]' >
+                <img src={toaPicture} alt="" className='w-full h-full object-cover rounded-[5px]' />
               </div>
             </div>
           </div>
