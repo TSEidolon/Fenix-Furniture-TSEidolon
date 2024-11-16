@@ -2,6 +2,7 @@ import React from 'react'
 import { CiDeliveryTruck } from "react-icons/ci";
 import { CiDiscount1 } from "react-icons/ci";
 import { PiChatCircleDotsLight } from "react-icons/pi";
+import catCouch from "../assets/images/cat-couch.png"
 
 export default function HeroSection() {
   return (
@@ -17,8 +18,8 @@ export default function HeroSection() {
         </div>
         <div className="hero-section-right">
           <div className='hero-section-right-background '>
-            <div className='bg-[#deecdd] rounded  w-[650px] h-[450px]' >
-              <p className=' flex justify-center items-center h-full'> Picture </p>
+            <div className='bg-[#deecdd] rounded flex  w-[650px] h-[450px]' >
+              <img src={catCouch} alt="furniture" className='p-2 object-contain' />
             </div>
           </div>
           
