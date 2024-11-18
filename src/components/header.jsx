@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import iconCart from '../assets/images/iconCart.png'
 import { useDispatch, useSelector } from 'react-redux';
 import { toggleStatusTab } from '../store/cart';
-import HeroSection from './heroSection';
+
 
 export default function Header() {
   const [totalQuantity, setTotalQuantity] = useState(0);
@@ -38,7 +38,7 @@ export default function Header() {
 
       </header>
       
-      <HeroSection />
+      {/* <HeroSection /> */}
     </div>
     )
 }

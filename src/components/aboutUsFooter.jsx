@@ -3,8 +3,6 @@ import { FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import toaPicture from "../assets/images/toa-heftiba-unsplash.jpg";
-
-
 import chameleon from "../assets/images/chameleon.png"
 
 export default function AboutUsFooter() {

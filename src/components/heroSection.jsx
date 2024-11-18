@@ -3,6 +3,8 @@ import { CiDeliveryTruck } from "react-icons/ci";
 import { CiDiscount1 } from "react-icons/ci";
 import { PiChatCircleDotsLight } from "react-icons/pi";
 import catCouch from "../assets/images/cat-couch.png"
+import { Parallax } from 'react-scroll-parallax';
+
 
 export default function HeroSection() {
   return (
@@ -16,10 +18,13 @@ export default function HeroSection() {
             <button className='text-lg font-semibold mt-5 p-2 border-2 bg-black rounded-md text-zinc-200 hover:bg-[#C1DFC4] hover:text-black'> Read More </button>
           </div>
         </div>
-        <div className="hero-section-right">
+        <div className="hero-section-right select-none relative">
           <div className='hero-section-right-background '>
-            <div className='bg-[#deecdd] rounded flex  w-[650px] h-[450px]' >
-              <img src={catCouch} alt="furniture" className='p-2 object-contain pointer-events-none' />
+            <div className='bg-hero-background bg-cover bg-no-repeat rounded   w-[650px] h-[450px]' >
+              <Parallax className=' flex items-center' speed={-10}>
+                <img src={catCouch} alt="furniture" className='p-2 object-contain select-none absolute  top-[-16%]' />
+              </Parallax>
+              
             </div>
           </div>
           
