@@ -19,7 +19,7 @@ export default function HeroSection() {
         <div className="hero-section-right">
           <div className='hero-section-right-background '>
             <div className='bg-[#deecdd] rounded flex  w-[650px] h-[450px]' >
-              <img src={catCouch} alt="furniture" className='p-2 object-contain' />
+              <img src={catCouch} alt="furniture" className='p-2 object-contain pointer-events-none' />
             </div>
           </div>
           
