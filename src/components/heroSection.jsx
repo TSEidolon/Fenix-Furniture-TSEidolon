@@ -8,7 +8,7 @@ import { Parallax } from 'react-scroll-parallax';
 
 export default function HeroSection() {
   return (
-    <div className='py-10 xl:py-5 '>
+    <div className='py-10 xl:py-10 '>
       <section className='hero-section flex flex-col   items-center gap-5 
       xl:flex-row 
       
@@ -33,7 +33,7 @@ export default function HeroSection() {
           
         </div>
       </section>
-      <section className='flex flex-col xl:flex-row md:justify-between  items-center gap-10  pt-10'>
+      <section className='flex flex-col xl:flex-row md:justify-between  items-center gap-10  pt-20'>
         <div className='flex  items-center gap-10 border-2 border-black rounded min-w-[300px]'>
           <div className="hero-banner-left border-r-2 border-r-black p-3 ">
             <CiDeliveryTruck className='h-[70px] w-[70px]' />
