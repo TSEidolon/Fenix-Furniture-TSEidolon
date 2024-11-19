@@ -8,9 +8,9 @@ import { Parallax } from 'react-scroll-parallax';
 
 export default function HeroSection() {
   return (
-    <div className='py-10 xl:py-5'>
+    <div className='py-10 xl:py-5 '>
       <section className='hero-section flex flex-col   items-center gap-5 
-      xl:flex-row
+      xl:flex-row 
       
       '>
         <div className="hero-section-left flex flex-col gap-10 xl:items-start items-center">
