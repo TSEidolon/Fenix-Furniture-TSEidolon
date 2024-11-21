@@ -1,7 +1,7 @@
 import React from 'react'
 import { products } from '../products'
 import { Link } from 'react-router-dom';
-
+import { Parallax } from 'react-scroll-parallax';
 
 export default function PopularProduct() {
 
@@ -23,8 +23,11 @@ export default function PopularProduct() {
             </Link>
             
           </div>
-          <div className='bg-[#C1DFC4] rounded-md translate-x-10 -translate-y-10 w-[420px] h-[420]'>
-            <img src={firstProduct.image} alt="" className='w-full  -translate-x-28 translate-y-16' />
+          <div className='bg-[#C1DFC4] rounded-md translate-x-10 -translate-y-10 w-[420px] h-[420] select-none'>
+            <Parallax className='h-full w-full' speed={-10}>
+              <img src={firstProduct.image} alt="" className='w-full  -translate-x-28 translate-y-16' />
+            </Parallax>
+            
           </div>
         </section>
         <section className='bottom-content flex flex-row-reverse justify-center items-center gap-10'>
@@ -39,7 +42,10 @@ export default function PopularProduct() {
 
           </div>
           <div className='bg-[#C1DFC4] rounded-md -translate-x-10 translate-y-8 w-[420px] h-[420]'>
-            <img src={secondProduct.image} alt="" className='w-full translate-x-20 -translate-y-16' />
+            <Parallax className='h-full w-full' speed={10} translateY={[20, -10]}>
+              <img src={secondProduct.image} alt="" className='w-full translate-x-20 -translate-y-16' />
+            </Parallax>
+            
           </div>
         </section>
       </div>
