@@ -63,7 +63,7 @@ export default function Detail() {
         </div>
 
       </div>
-      <section className=' flex justify-around items-start pt-5 pb-10 gap-5 bg-[#C1DFC4] rounded-md h-[40%] relative'>
+      <section className=' flex justify-around items-start pt-5 pb-10 gap-5 bg-zinc-300 rounded-md h-[40%] relative'>
           <div className='flex flex-col gap-3 items-start'>
             <h4 className='text-xl font-semibold'>Other Info</h4>
             <button className='text-sm hover:text-gray-500'>Terms & Conditions</button>
