@@ -13,7 +13,7 @@ export default function HeroSection() {
       xl:flex-row 
       
       '>
-        <div className="hero-section-left flex flex-col gap-10 xl:items-start items-center">
+        <div className="hero-section-left flex flex-col gap-10 xl:items-start items-center order-2 xl:order-1 xl:pt-0 pt-20">
           <h1 className='text-6xl max-w-[80%] text-center xl:text-left'>Super CatchPhrase Here!!!!!!!!!!</h1>
           <p className='max-w-[80%] xl:max-w-[70%] text-center xl:text-left'> Mini Paragraph section description thingy here.... Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, fuga.</p>
           <div className='flex gap-10'>
@@ -21,7 +21,7 @@ export default function HeroSection() {
             <button className='text-lg font-semibold mt-5 p-2 border-2 bg-black rounded-md text-zinc-200 hover:bg-[#C1DFC4] hover:text-black'> Read More </button>
           </div>
         </div>
-        <div className="hero-section-right select-none relative px-5 xl:px-0">
+        <div className="hero-section-right select-none relative px-5 xl:px-0 xl:order-2 order-1">
           <div className='hero-section-right-background '>
             <div className='bg-hero-background bg-cover bg-no-repeat rounded w-[450px] md:w-[650px]  h-[450px] ' >
               <Parallax className='h-full w-full flex items-center justify-center' speed={-10}>
