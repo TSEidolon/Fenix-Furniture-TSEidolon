@@ -33,7 +33,7 @@ export default function PopularProduct() {
         <section className='bottom-content flex  flex-col lg:flex-row-reverse justify-center items-center lg:gap-10 gap-5'>
           <div className='px-10 flex  flex-col  justify-center lg:items-start items-center '>
             <h3 className='text-2xl py-5 font-bold'>{secondProduct.name}</h3>
-            <p className='max-w-[600px] text-lg '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quia dicta eos saepe obcaecati numquam culpa aperiam quis, sapiente mollitia nam, sit velit, eveniet quam fugit repellendus deserunt repellat? Cum!</p>
+            <p className='lg:max-w-[600px] max-w-[70%] text-lg '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quia dicta eos saepe obcaecati numquam culpa aperiam quis, sapiente mollitia nam, sit velit, eveniet quam fugit repellendus deserunt repellat? Cum!</p>
             <Link to={secondProduct.slug}>
               <button className='text-lg font-semibold mt-5 p-2 border-2 bg-black rounded-md text-zinc-200  hover:bg-slate-800'>
                 Read More
