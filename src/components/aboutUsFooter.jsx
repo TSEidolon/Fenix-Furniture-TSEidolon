@@ -7,16 +7,16 @@ import chameleon from "../assets/images/chameleon.png"
 
 export default function AboutUsFooter() {
   return (
-    <div className='h-[90vh] pt-12'>
-        <section className='about-us-section flex items-center justify-between gap-10 pb-12 h-[60%]'>
+    <div className='lg:h-[90vh] pt-12'>
+        <section className='about-us-section flex lg:flex-row flex-col items-center justify-between gap-10 pb-12 h-[60%]'>
           <div className="about-us-section-left">
             <div className='hero-section-right-background '>
-              <div className='bg-[#deecdd] relative mx-auto rounded-lg overflow-hidden  w-[550px] h-[450px]' >
+              <div className='bg-[#deecdd] relative mx-auto rounded-lg overflow-hidden  lg:w-[550px] lg:h-[450px] h-[350px] w-[450px]' >
                 <img src={toaPicture} alt="" className='w-full h-full object-cover rounded-[5px]' />
               </div>
             </div>
           </div>
-          <div className="about-us-section-right  flex flex-col  gap-8 w-full">
+          <div className="about-us-section-right  flex flex-col  gap-8 w-full h-full">
             <h1 className='text-6xl w-full'>Super CatchPhrase Here!!!!</h1>
             <p className='max-w-[70%]'> Mini Paragraph section description thingy here.... Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, fuga.</p>
             <p className='max-w-[70%]'> Mini Paragraph section description thingy here.... Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, fuga.</p>
