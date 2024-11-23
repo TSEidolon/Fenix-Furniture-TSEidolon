@@ -16,10 +16,10 @@ export default function AboutUsFooter() {
               </div>
             </div>
           </div>
-          <div className="about-us-section-right  flex flex-col  gap-8 w-full h-full">
-            <h1 className='text-6xl w-full'>Super CatchPhrase Here!!!!</h1>
-            <p className='max-w-[70%]'> Mini Paragraph section description thingy here.... Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, fuga.</p>
-            <p className='max-w-[70%]'> Mini Paragraph section description thingy here.... Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, fuga.</p>
+          <div className="about-us-section-right  flex flex-col  gap-8 w-full h-full lg:items-start items-center">
+            <h1 className='text-6xl w-full lg:text-left text-center '>Super CatchPhrase Here!!!!</h1>
+            <p className='max-w-[70%] text-justify'> Mini Paragraph section description thingy here.... Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, fuga.</p>
+            <p className='max-w-[70%] text-justify'> Mini Paragraph section description thingy here.... Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, fuga.</p>
             <div className=' gap-2 flex items-center  group'>
               <div className='text-2xl  group-hover:translate-y-2 transform transition-transform duration-500'> ↓ </div>
               <div className='text-xl font-semibold p-2 text-black '> Check Out Our Socials Below </div>
@@ -27,7 +27,7 @@ export default function AboutUsFooter() {
             </div>
           </div>
         </section>
-        <section className='footer flex justify-around items-start pt-5 gap-5 bg-[#C1DFC4] rounded-md h-[40%] relative'>
+        <section className='footer flex  flex-wrap justify-around items-start pt-5 px-5 lg:px-0 gap-5 bg-[#C1DFC4] rounded-md h-[40%] relative'>
           <div className='flex flex-col gap-3 items-start'>
             <h4 className='text-xl font-semibold'>Other Info</h4>
             <button className='text-sm hover:text-gray-500'>Terms & Conditions</button>
@@ -62,7 +62,7 @@ export default function AboutUsFooter() {
               </button> 
 
           </div>
-          <img src={chameleon} alt="chameleon" className="absolute right-[0%] top-[-16%] w-[100px]" />
+          <img src={chameleon} alt="chameleon" className="absolute lg:right-[0%] lg:top-[-16%] right-[0%] sm:top-[-16%] top-[-7%] lg:w-[100px] w-10" />
         </section>
 
     </div>
