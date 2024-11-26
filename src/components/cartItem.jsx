@@ -25,14 +25,14 @@ export default function CartItem(props) {
   }
 
   return (
-    <div className='flex justify-between items-center bg-slate-600 text-white p-2 border-b-2 gap-5 rounded-md'>
+    <div className='flex justify-between items-center  text-black font-medium p-2 border-b-2 gap-4 rounded-md'>
       <img src={detail.image} alt="" className='w-12'/>
-      <h3>{detail.name}</h3>
+      <h3 className='text-base'>{detail.name}</h3>
       <p> ${detail.price * quantity}</p>
-      <div className='w-20 flex justify-between'>
-        <button className='bg-gray-200 rounded-full w-6 h-6 text-cyan-600' onClick={handleMinusQuantity}>-</button>
-        <span>{quantity}</span>
-        <button className='bg-gray-200 rounded-full w-6 h-6 text-cyan-600' onClick={handlePlusQuantity}>+</button>
+      <div className='w-20 flex justify-between items-center px-2'>
+        <button className='bg-black  text-zinc-200 rounded-full w-6 h-6 ' onClick={handleMinusQuantity}>-</button>
+        <span className='px-1'>{quantity}</span>
+        <button className='bg-black text-zinc-200 rounded-full w-6 h-6 ' onClick={handlePlusQuantity}>+</button>
       </div>
     </div>
   )

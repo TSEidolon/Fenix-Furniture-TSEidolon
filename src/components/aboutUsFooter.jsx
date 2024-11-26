@@ -8,7 +8,7 @@ import chameleon from "../assets/images/chameleon.png"
 export default function AboutUsFooter() {
   return (
     <div className='lg:h-[90vh] pt-12'>
-        <section className='about-us-section flex lg:flex-row flex-col items-center justify-between gap-10 pb-12 h-[60%]'>
+        <section className='about-us-section flex lg:flex-row flex-col items-center justify-between gap-10 pb-10 h-[60%]'>
           <div className="about-us-section-left">
             <div className='hero-section-right-background '>
               <div className='bg-[#deecdd] relative mx-auto rounded-lg overflow-hidden  lg:w-[550px] lg:h-[450px] h-[350px] w-[450px]' >
@@ -27,7 +27,7 @@ export default function AboutUsFooter() {
             </div>
           </div>
         </section>
-        <section className='footer flex  flex-wrap justify-around items-start pt-5 px-5 lg:px-0 gap-5 bg-[#C1DFC4] rounded-md h-[40%] relative'>
+        <section className='footer flex  flex-wrap justify-around items-start pt-5 pb-10 lg:pb-0 px-5 lg:px-0 gap-5 bg-[#C1DFC4] rounded-md h-[40%] relative'>
           <div className='flex flex-col gap-3 items-start'>
             <h4 className='text-xl font-semibold'>Other Info</h4>
             <button className='text-sm hover:text-gray-500'>Terms & Conditions</button>
