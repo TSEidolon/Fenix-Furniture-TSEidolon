@@ -10,10 +10,10 @@ export default forwardRef(function PopularProduct(props,ref) {
   const secondProduct = products[4];
 
   return (
-    <div {...props} ref={ref} className='py-10 flex items-center justify-center flex-col gap-5 lg:max-w-full lg:px-0 px-5 '>
-      <h2 className='text-4xl py-10'> Most Popular Items </h2>
-      <div className='popular-product-main-content lg:bg-[#DEECDD] bg-none '>
-        <section className='top-content flex lg:flex-row flex-col justify-center items-center gap-10  lg:pb-none pb-10 '>
+    <div className='py-10 flex items-center justify-center flex-col gap-5 lg:max-w-full lg:px-0 px-5 '>
+      <h2 {...props} ref={ref} className='text-4xl py-10'> Most Popular Items </h2>
+      <div  className='popular-product-main-content lg:bg-[#DEECDD] bg-none '>
+        <section  className='top-content flex lg:flex-row flex-col justify-center items-center gap-10  lg:pb-none pb-10 '>
           <div className='px-10 flex  flex-col  justify-center lg:items-start items-center  '>
             <h3 className='text-2xl py-5 font-bold'>{firstProduct.name}</h3>
             <p className='lg:max-w-[600px] max-w-[100%] sm:max-w-[70%] text-lg text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate vel corporis, dicta obcaecati vitae et dolorem laboriosam nostrum molestiae eaque.</p>

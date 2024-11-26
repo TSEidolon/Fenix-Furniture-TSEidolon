@@ -11,6 +11,7 @@ export default function Home() {
   const productsRef = useRef(null);
   const aboutUsRef = useRef(null);
   const contactRef = useRef(null);
+  const popProductsRef = useRef(null)
 
 
   return (
@@ -21,8 +22,12 @@ export default function Home() {
         navScrollTwo={aboutUsRef} 
         navScrollThree={contactRef}
       />
-      <HeroSection />
-      <PopularProduct />
+      <HeroSection 
+      navScrollOne={productsRef}
+      navScrollFour={popProductsRef}
+
+      />
+      <PopularProduct ref={popProductsRef}/>
       <div ref={productsRef}>
        <h1 className='text-3xl my-15 pt-10 pb-5'>List Products</h1>
         <div className='grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-5 pb-10'>

@@ -6,7 +6,7 @@ import catCouch from "../assets/images/cat-couch.png"
 import { Parallax } from 'react-scroll-parallax';
 
 
-export default function HeroSection() {
+export default function HeroSection({navScrollOne,navScrollFour}) {
   return (
     <div className='py-10 xl:py-10 '>
       <section className='hero-section flex flex-col   items-center gap-5 
@@ -17,8 +17,12 @@ export default function HeroSection() {
           <h1 className='text-6xl max-w-[80%] text-center xl:text-left'>Super CatchPhrase Here!!!!!!!!!!</h1>
           <p className='max-w-[80%] xl:max-w-[70%] text-center xl:text-left'> Mini Paragraph section description thingy here.... Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, fuga.</p>
           <div className='flex gap-10'>
-            <button className='text-lg font-semibold mt-5 p-2 border-2 bg-black rounded-md text-zinc-200 hover:bg-[#C1DFC4] hover:text-black'> Shop Now </button>
-            <button className='text-lg font-semibold mt-5 p-2 border-2 bg-black rounded-md text-zinc-200 hover:bg-[#C1DFC4] hover:text-black'> Read More </button>
+            <button className='text-lg font-semibold mt-5 p-2 border-2 bg-black rounded-md text-zinc-200 hover:bg-[#C1DFC4] hover:text-black'
+            onClick={() => navScrollOne.current.scrollIntoView({behavior: "smooth"})}
+            > Shop Now </button>
+            <button className='text-lg font-semibold mt-5 p-2 border-2 bg-black rounded-md text-zinc-200 hover:bg-[#C1DFC4] hover:text-black'
+            onClick={() => navScrollFour.current.scrollIntoView({behavior: "smooth"})}
+            > Read More </button>
           </div>
         </div>
         <div className="hero-section-right select-none relative px-5 xl:px-0 xl:order-2 order-1">
