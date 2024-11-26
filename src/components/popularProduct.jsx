@@ -2,14 +2,15 @@ import React from 'react'
 import { products } from '../products'
 import { Link } from 'react-router-dom';
 import { Parallax } from 'react-scroll-parallax';
+import { forwardRef } from 'react';
 
-export default function PopularProduct() {
+export default forwardRef(function PopularProduct(props,ref) {
 
   const firstProduct = products[3];
   const secondProduct = products[4];
 
   return (
-    <div className='py-10 flex items-center justify-center flex-col gap-5 lg:max-w-full lg:px-0 px-5 '>
+    <div {...props} ref={ref} className='py-10 flex items-center justify-center flex-col gap-5 lg:max-w-full lg:px-0 px-5 '>
       <h2 className='text-4xl py-10'> Most Popular Items </h2>
       <div className='popular-product-main-content lg:bg-[#DEECDD] bg-none '>
         <section className='top-content flex lg:flex-row flex-col justify-center items-center gap-10  lg:pb-none pb-10 '>
@@ -51,4 +52,4 @@ export default function PopularProduct() {
       </div>
     </div>
   )
-}
+})

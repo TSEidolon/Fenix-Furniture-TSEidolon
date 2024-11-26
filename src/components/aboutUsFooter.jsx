@@ -4,10 +4,11 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import toaPicture from "../assets/images/toa-heftiba-unsplash.jpg";
 import chameleon from "../assets/images/chameleon.png"
+import { forwardRef } from 'react';
 
-export default function AboutUsFooter() {
+export default forwardRef(function AboutUsFooter(props,ref) {
   return (
-    <div className='lg:h-[90vh] pt-12'>
+    <div {...props} ref={ref} className='lg:h-[90vh] pt-12'>
         <section className='about-us-section flex lg:flex-row flex-col items-center justify-between gap-10 pb-10 h-[60%]'>
           <div className="about-us-section-left">
             <div className='hero-section-right-background '>
@@ -16,8 +17,8 @@ export default function AboutUsFooter() {
               </div>
             </div>
           </div>
-          <div className="about-us-section-right  flex flex-col  gap-8 w-full h-full lg:items-start items-center">
-            <h1 className='text-6xl w-full lg:text-left text-center '>Super CatchPhrase Here!!!!</h1>
+          <div className="about-us-section-right  flex flex-col  gap-8 w-full h-full  items-center">
+            <h1 className='text-6xl w-full  text-center '>Super CatchPhrase Here!!!!</h1>
             <p className='max-w-[70%] text-justify'> Mini Paragraph section description thingy here.... Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, fuga.</p>
             <p className='max-w-[70%] text-justify'> Mini Paragraph section description thingy here.... Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, fuga.</p>
             <div className=' gap-2 flex items-center  group'>
@@ -67,4 +68,4 @@ export default function AboutUsFooter() {
 
     </div>
   )
-}
+})
