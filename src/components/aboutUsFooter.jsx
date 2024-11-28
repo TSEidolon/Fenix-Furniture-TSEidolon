@@ -18,12 +18,12 @@ export default forwardRef(function AboutUsFooter(props,ref) {
             </div>
           </div>
           <div className="about-us-section-right  flex flex-col  gap-8 w-full h-full  items-center">
-            <h1 className='text-6xl w-full  text-center '>Super CatchPhrase Here!!!!</h1>
-            <p className='max-w-[70%] text-justify'> Mini Paragraph section description thingy here.... Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, fuga.</p>
-            <p className='max-w-[70%] text-justify'> Mini Paragraph section description thingy here.... Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, fuga.</p>
+            <h1 className='text-4xl w-full  text-center '>Crafting Comfort, Designing Your Space</h1>
+            <p className='lg:max-w-[85%]  text-justify'> At Fenix Furniture, we are driven by a deep passion for creating high-quality, stylish furniture that transforms any space into a haven of comfort.</p>
+            <p className='max-w-[85%] text-justify'> Whether you’re outfitting a cozy living room or designing a chic office, Fenix Furniture offers pieces that cater to every taste and need. </p>
             <div className=' gap-2 flex items-center  group'>
               <div className='text-2xl  group-hover:translate-y-2 transform transition-transform duration-500'> ↓ </div>
-              <div className='text-xl font-semibold p-2 text-black '> Check Out Our Socials Below </div>
+              <div className='text-lg font-semibold p-2 text-black '> Check Out Our Socials Below </div>
               <div className='text-2xl group-hover:translate-y-2 transform transition-transform duration-500'> ↓ </div>
             </div>
           </div>
