@@ -6,13 +6,15 @@ import imageProduct5 from './assets/images/5.png'
 import imageProduct6 from './assets/images/6.png' 
 import imageProduct7 from './assets/images/7.png' 
 import imageProduct8 from './assets/images/8.png' 
+
+const furnitureDescription = "Experience the perfect blend of luxury and durability with our handcrafted chair. Made from premium wood, genuine leather, and soft cotton, it offers unmatched comfort and timeless style. Built to last, this chair is a sophisticated addition to any space, ensuring relaxation and elegance in every moment."
 export const products = [
     {
         id: 1,
         name: 'Hertfoid Upholstered Chair',
         price: 101,
         image: imageProduct1,
-        description: 'Mollit anim consectetur adipisicing aute pariatur ad mollit ad. Officia amet aliqua non laborum dolore sint sit eu sit sunt laboris. Dolor tempor ipsum culpa Lorem ipsum ullamco ullamco dolor sit do. Do proident quis ad laborum et proident laborum. Non voluptate eiusmod aute labore ea aute.',
+        description: furnitureDescription,
         slug: 'hertfoid-upholstered-chair'
     },
     {

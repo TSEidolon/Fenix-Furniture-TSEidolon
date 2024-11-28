@@ -7,12 +7,15 @@ import { FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import chameleon from "../assets/images/chameleon.png"
+import HeaderDetail from '../components/headerDetail';
 
 export default function Detail() {
   const {slug} = useParams();
   const [detail, setDetail] = useState([]);
   const [quantity, setQuantity] = useState(1);
   const dispatch = useDispatch();
+
+
   
   useEffect (() => {
     const findDetail = products.filter(product => product.slug === slug);
@@ -37,6 +40,7 @@ export default function Detail() {
 
   return (
     <div className=''>
+      <HeaderDetail />
       <h2 className='text-3xl text-center'> Product Detail</h2>
       <div className='grid grid-cols-2 gap-5 mt-5'>
         <div>

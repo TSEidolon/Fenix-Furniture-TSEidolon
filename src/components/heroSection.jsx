@@ -14,8 +14,8 @@ export default function HeroSection({navScrollOne,navScrollFour}) {
       
       '>
         <div className="hero-section-left flex flex-col gap-10 xl:items-start items-center order-2 xl:order-1 xl:pt-0 pt-20">
-          <h1 className='text-6xl max-w-[80%] text-center xl:text-left'>Super CatchPhrase Here!!!!!!!!!!</h1>
-          <p className='max-w-[80%] xl:max-w-[70%] text-center xl:text-left'> Mini Paragraph section description thingy here.... Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, fuga.</p>
+          <h1 className='text-6xl max-w-[80%] text-center xl:text-left'>Comfort Loved by All, Pets Included!</h1>
+          <p className='max-w-[80%] xl:max-w-[70%] text-center xl:text-left'> Experience ultimate comfort with Fenix Furniture—crafted for your family, tested and approved by your furry companions!</p>
           <div className='flex gap-10'>
             <button className='text-lg font-semibold mt-5 p-2 border-2 bg-black rounded-md text-zinc-200 hover:bg-[#C1DFC4] hover:text-black'
             onClick={() => navScrollOne.current.scrollIntoView({behavior: "smooth"})}
@@ -38,31 +38,31 @@ export default function HeroSection({navScrollOne,navScrollFour}) {
         </div>
       </section>
       <section className='flex flex-col xl:flex-row md:justify-between  items-center gap-10  pt-20'>
-        <div className='flex  items-center gap-10 border-2 border-black rounded min-w-[300px]'>
+        <div className='flex  items-center gap-10 border-2 border-black rounded min-w-[380px]'>
           <div className="hero-banner-left border-r-2 border-r-black p-3 ">
             <CiDeliveryTruck className='h-[70px] w-[70px]' />
           </div>
-          <div className="hero-banner-right pr-3">
+          <div className="hero-banner-right pr-3 ">
             <h2 className='font-bold'>Free Shipping</h2>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Free shipping on all orders!</p>
           </div>
         </div>
-        <div className='flex  items-center gap-10 border-2 border-black rounded min-w-[350px]'>
+        <div className='flex  items-center gap-10 border-2 border-black rounded min-w-[380px]'>
           <div className="hero-banner-left border-r-2 border-r-black p-3 ">
             <CiDiscount1 className='h-[70px] w-[70px]' />
           </div>
           <div className="hero-banner-right pr-3">
-            <h2 className='font-bold'>Free Shipping</h2>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <h2 className='font-bold'>Shop Our Deals</h2>
+            <p>Great prices on stylish furniture!</p>
           </div>
         </div>
-        <div className='flex  items-center gap-10 border-2 border-black rounded min-w-[350px]'>
+        <div className='flex  items-center gap-10 border-2 border-black rounded min-w-[380px]'>
           <div className="hero-banner-left border-r-2 border-r-black p-3 ">
             <PiChatCircleDotsLight className='h-[70px] w-[70px]' />
           </div>
           <div className="hero-banner-right pr-3">
-            <h2 className='font-bold'>Free Shipping</h2>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <h2 className='font-bold'>Chat With Us</h2>
+            <p>Get help instantly, anytime here!</p>
           </div>
         </div>
         
