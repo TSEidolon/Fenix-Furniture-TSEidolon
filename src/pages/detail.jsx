@@ -41,8 +41,8 @@ export default function Detail() {
   return (
     <div className=''>
       <HeaderDetail />
-      <h2 className='text-3xl text-center'> Product Detail</h2>
-      <div className='grid grid-cols-2 gap-5 mt-5'>
+      <h2 className='text-3xl text-center'> Furniture Details </h2>
+      <div className='grid mg:grid-cols-2 grid-cols-1 gap-5 mt-5'>
         <div>
           <img src={detail.image} alt="" className='w-full'/>
         </div>
@@ -67,7 +67,7 @@ export default function Detail() {
         </div>
 
       </div>
-      <section className=' flex justify-around items-start pt-5 pb-10 gap-5 bg-zinc-300 rounded-md h-[40%] relative'>
+      <section className='footer flex  flex-wrap justify-around items-start pt-5 pb-10 lg:pb-0 px-5 lg:px-0 gap-5 bg-zinc-300 rounded-md h-[40%] relative'>
           <div className='flex flex-col gap-3 items-start'>
             <h4 className='text-xl font-semibold'>Other Info</h4>
             <button className='text-sm hover:text-gray-500'>Terms & Conditions</button>
@@ -102,8 +102,8 @@ export default function Detail() {
               </button> 
 
           </div>
-          <img src={chameleon} alt="chameleon" className="absolute right-[0%] top-[-26%] w-[100px]" />
-        </section>
+          <img src={chameleon} alt="chameleon" className="absolute lg:right-[0%] lg:top-[-16%] right-[0%] sm:top-[-16%] top-[-7%] lg:w-[100px] w-10" />
+      </section>
     </div>
   )
 }
