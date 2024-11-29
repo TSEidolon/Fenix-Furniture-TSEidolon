@@ -61,7 +61,7 @@ export default function Detail() {
               Add to Cart
             </button>
           </div>
-          <p>
+          <p className='text-lg text-justify leading-relaxed'>
             {detail.description}
           </p>
         </div>

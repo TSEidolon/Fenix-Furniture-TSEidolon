@@ -27,8 +27,8 @@ export default function ProductCart(props) {
         <p>
           $<span className='text-2xl font-medium'>{price}</span>
         </p>
-        <button className='bg-gray-300 p-2 rounded-md text-sm hover:bg-gray-400 flex gap-2' onClick={handleAddtoCart}>
-          <img src={iconCart} alt="" className='w-5'/>
+        <button className='bg-[#DEECDD] p-2 rounded-md text-sm hover:bg-gray-400 flex gap-2 font-medium' onClick={handleAddtoCart}>
+          <img src={iconCart} alt="" className='w-5 '/>
           Add to Cart
         </button>
       </div>
