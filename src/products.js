@@ -8,6 +8,7 @@ import imageProduct7 from './assets/images/7.png'
 import imageProduct8 from './assets/images/8.png' 
 
 const furnitureDescription = "Experience the perfect blend of luxury and durability with our handcrafted chair. Made from premium wood, genuine leather, and soft cotton, it offers unmatched comfort and timeless style. Built to last, this chair is a sophisticated addition to any space, ensuring relaxation and elegance in every moment."
+
 export const products = [
     {
         id: 1,
@@ -22,7 +23,7 @@ export const products = [
         name: 'Abingdon Upholstered Chair Swivel',
         price: 151,
         image: imageProduct2,
-        description: 'Mollit anim consectetur adipisicing aute pariatur ad mollit ad. Officia amet aliqua non laborum dolore sint sit eu sit sunt laboris. Dolor tempor ipsum culpa Lorem ipsum ullamco ullamco dolor sit do. Do proident quis ad laborum et proident laborum. Non voluptate eiusmod aute labore ea aute.',
+        description: furnitureDescription,
         slug: 'bingdon-pholstered-chair-swivel'
     },
     {
@@ -30,7 +31,7 @@ export const products = [
         name: 'Jeses Minimore Modern Style Etta',
         price: 181,
         image: imageProduct3,
-        description: 'Mollit anim consectetur adipisicing aute pariatur ad mollit ad. Officia amet aliqua non laborum dolore sint sit eu sit sunt laboris. Dolor tempor ipsum culpa Lorem ipsum ullamco ullamco dolor sit do. Do proident quis ad laborum et proident laborum. Non voluptate eiusmod aute labore ea aute.',
+        description: furnitureDescription,
         slug: 'jeses-minimore-modern-style-etta'
     },
     {
@@ -38,7 +39,7 @@ export const products = [
         name: 'JJeses Minimore Modern Style',
         price: 201,
         image: imageProduct4,
-        description: 'Mollit anim consectetur adipisicing aute pariatur ad mollit ad. Officia amet aliqua non laborum dolore sint sit eu sit sunt laboris. Dolor tempor ipsum culpa Lorem ipsum ullamco ullamco dolor sit do. Do proident quis ad laborum et proident laborum. Non voluptate eiusmod aute labore ea aute.',
+        description: furnitureDescription,
         slug: 'eses-minimore-modern-style-zakari'
     },
     {
@@ -46,7 +47,7 @@ export const products = [
         name: 'Bolanle Upholstered Armchair',
         price: 251,
         image: imageProduct5,
-        description: 'Mollit anim consectetur adipisicing aute pariatur ad mollit ad. Officia amet aliqua non laborum dolore sint sit eu sit sunt laboris. Dolor tempor ipsum culpa Lorem ipsum ullamco ullamco dolor sit do. Do proident quis ad laborum et proident laborum. Non voluptate eiusmod aute labore ea aute.',
+        description: furnitureDescription,
         slug: 'corrigan-studio-tufed-upholstered-wide-winback-armchair'
     },
     {
@@ -54,7 +55,7 @@ export const products = [
         name: 'Jaqueze Upholstered Armchair',
         price: 111,
         image: imageProduct6,
-        description: 'Mollit anim consectetur adipisicing aute pariatur ad mollit ad. Officia amet aliqua non laborum dolore sint sit eu sit sunt laboris. Dolor tempor ipsum culpa Lorem ipsum ullamco ullamco dolor sit do. Do proident quis ad laborum et proident laborum. Non voluptate eiusmod aute labore ea aute.',
+        description: furnitureDescription,
         slug: 'corrigan-studio-273-wide-armchair'
     },
     {
@@ -62,7 +63,7 @@ export const products = [
         name: 'Leston Wide Upholstered Fabric',
         price: 121,
         image: imageProduct7,
-        description: 'Mollit anim consectetur adipisicing aute pariatur ad mollit ad. Officia amet aliqua non laborum dolore sint sit eu sit sunt laboris. Dolor tempor ipsum culpa Lorem ipsum ullamco ullamco dolor sit do. Do proident quis ad laborum et proident laborum. Non voluptate eiusmod aute labore ea aute.',
+        description: furnitureDescription,
         slug: 'leston-wide-upholstered-fabric'
     },
     {
@@ -70,7 +71,7 @@ export const products = [
         name: 'Stephanny 27.5" Wide Tufted',
         price: 220,
         image: imageProduct8,
-        description: 'Mollit anim consectetur adipisicing aute pariatur ad mollit ad. Officia amet aliqua non laborum dolore sint sit eu sit sunt laboris. Dolor tempor ipsum culpa Lorem ipsum ullamco ullamco dolor sit do. Do proident quis ad laborum et proident laborum. Non voluptate eiusmod aute labore ea aute.',
+        description: furnitureDescription,
         slug: 'stephanny-275-wide-tufted-armchair'
     },
 ];

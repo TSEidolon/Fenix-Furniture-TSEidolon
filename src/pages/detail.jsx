@@ -42,7 +42,7 @@ export default function Detail() {
     <div className=''>
       <HeaderDetail />
       <h2 className='text-3xl text-center'> Furniture Details </h2>
-      <div className='grid mg:grid-cols-2 grid-cols-1 gap-5 mt-5'>
+      <div className='grid md:grid-cols-2 grid-cols-1 gap-5 mt-5 pb-10 lg:pb-0'>
         <div>
           <img src={detail.image} alt="" className='w-full'/>
         </div>
