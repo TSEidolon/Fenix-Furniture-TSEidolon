@@ -8,13 +8,13 @@ Live Website: [Fenix-Furniture](https://fenix-furniture-tseidolon.netlify.app/)
 
 Mockup website made in Figma
 [Mockup](https://www.figma.com/design/1DeSRxTO4n0OM4RXZhFP6S/Shopping-Website?node-id=0-1&t=OoHuEFPT3OBQ0JFY-1)
-![A picture of a website planned in Figma](<Shopping Website-1.jpg>)
+
 
 
 # Create React App Quick Start
-npx create-react-app my-app
-cd my-app
-npm start
+ - `npx create-react-app my-app`
+ - `cd my-app`
+ - `npm start`
 
 
 # Getting Started with Create React App
