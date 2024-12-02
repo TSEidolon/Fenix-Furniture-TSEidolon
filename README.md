@@ -3,7 +3,7 @@ A Fictional responsive furniture website used to practice the "Shopping Cart" fu
 - JavaScript Library: React JS.
 - CSS framework: Tailwind CSS
 
-
+[Live Website]()
 
 Mockup website made in Figma
 [Mockup](https://www.figma.com/design/1DeSRxTO4n0OM4RXZhFP6S/Shopping-Website?node-id=0-1&t=OoHuEFPT3OBQ0JFY-1)
