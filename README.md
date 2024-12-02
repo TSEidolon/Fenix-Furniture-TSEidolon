@@ -1,11 +1,10 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 A Fictional responsive furniture website used to practice the "Shopping Cart" function in JS. 
 
 - JavaScript Library: React JS.
 - CSS framework: Tailwind CSS
 
-
+Live Website: [Fenix-Furniture](https://fenix-furniture-tseidolon.netlify.app/)
 
 Mockup website made in Figma
 [Mockup](https://www.figma.com/design/1DeSRxTO4n0OM4RXZhFP6S/Shopping-Website?node-id=0-1&t=OoHuEFPT3OBQ0JFY-1)
@@ -17,10 +16,7 @@ npx create-react-app my-app
 cd my-app
 npm start
 
-=======
->>>>>>> parent of 171b3e7 (edited readme file)
-=======
->>>>>>> parent of 171b3e7 (edited readme file)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
