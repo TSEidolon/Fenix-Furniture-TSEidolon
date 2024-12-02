@@ -39,7 +39,7 @@ export default function Detail() {
     }
 
   return (
-    <div className=''>
+    <div className='h-full'>
       <HeaderDetail />
       <h2 className='text-3xl text-center'> Furniture Details </h2>
       <div className='grid md:grid-cols-2 grid-cols-1 gap-5 mt-5 pb-10 lg:pb-0'>
@@ -67,7 +67,7 @@ export default function Detail() {
         </div>
 
       </div>
-      <section className='footer flex  flex-wrap justify-around items-start pt-5 pb-10 lg:pb-0 px-5 lg:px-0 gap-5 bg-zinc-300 rounded-md h-[40%] relative'>
+      <section className='footer flex  flex-wrap justify-around items-start pt-5 pb-10 lg:pb-0 px-5 lg:px-0 gap-5 bg-zinc-300 rounded-md h-[30%] relative lg:hidden'>
           <div className='flex flex-col gap-3 items-start'>
             <h4 className='text-xl font-semibold'>Other Info</h4>
             <button className='text-sm hover:text-gray-500'>Terms & Conditions</button>
