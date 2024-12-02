@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 A Fictional responsive furniture website used to practice the "Shopping Cart" function in JS. 
 
 - JavaScript Library: React JS.
@@ -16,6 +17,8 @@ npx create-react-app my-app
 cd my-app
 npm start
 
+=======
+>>>>>>> parent of 171b3e7 (edited readme file)
 =======
 >>>>>>> parent of 171b3e7 (edited readme file)
 # Getting Started with Create React App
