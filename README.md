@@ -1,3 +1,20 @@
+A Fictional responsive furniture website used to practice the "Shopping Cart" function in JS. 
+
+- JavaScript Library: React JS.
+- CSS framework: Tailwind CSS
+
+
+
+Mockup website made in Figma
+[Mockup](https://www.figma.com/design/1DeSRxTO4n0OM4RXZhFP6S/Shopping-Website?node-id=0-1&t=OoHuEFPT3OBQ0JFY-1)
+![A picture of a website planned in Figma](<Shopping Website-1.jpg>)
+
+
+# Create React App Quick Start
+npx create-react-app my-app
+cd my-app
+npm start
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
