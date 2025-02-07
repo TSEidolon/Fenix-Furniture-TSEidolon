@@ -1,5 +1,7 @@
 
-A Fictional responsive furniture website used to practice the "Shopping Cart" function in JS. 
+A furniture website that utilizes React's state management to efficiently track and update cart data (product id, quantity, and price). 
+ - Used redux for managing the global state of the cart to make it accessible to the necessary components. 
+ - Set up routing for navigation between the product detail page, cart summary, and checkout with React Router
 
 - JavaScript Library: React JS.
 - CSS framework: Tailwind CSS
